@@ -1,10 +1,13 @@
 import Image from 'next/image';
 
-export default function Week1() {
+export default function Week2() {
   return (
     <>
       <div className="container">
         <div className="row">
+        <div className="col-3">
+            <h1>Week 2</h1>
+          </div>
           <div className="col-9">
             <div className="card mb-3">
               <div className="row g-0">
@@ -13,15 +16,12 @@ export default function Week1() {
                 </div>
                 <div className="col-md-8">
                   <div className="card-body">
-                    <p className="card-text">Blog post week 1</p>
+                    <p className="card-text">Blog post week 2</p>
                     <p className="card-text"><small className="text-body-secondary">More Text</small></p>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div className="col-3">
-            <h1>Week 1</h1>
           </div>
         </div>
       </div>
